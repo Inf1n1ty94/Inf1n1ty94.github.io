@@ -77,6 +77,10 @@ html {
     text-decoration: none;
 }
 
+.menu__link {
+    color: rgba(31, 30, 30, 1);
+}
+
 .login__button {
     margin-top: 46px;
     width: 131px;
@@ -147,11 +151,22 @@ html {
     color: rgba(255, 255, 255, 1);
 }
 
+#button__hold:hover {
+    background: rgba(165, 21, 5, 1);
+    transition-duration: 0.3s;
+}
+
 #button__become {
     grid-column: 3;
     grid-row: 2;
     border: 1px solid rgba(31, 30, 30, 1);
     background: none;
+}
+
+#button__become:hover {
+    background-color: rgba(31, 30, 30, 1);
+    color: rgba(255, 255, 255, 1);
+    transition-duration: 0.3s;
 }
 
 .content__title {
