@@ -1,18 +1,21 @@
  <!DOCTYPE html>
- <html lang="en">
+ <html lang="ru">
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lenni</title>
+    <title>LenniArt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
  </head>
- <body>
+ <body class="body">
     <header class="header">
         <div class="container">
             <div class="header__inner">
                 <a href="#" class="logo">
-                    <img src="images/logo.svg" alt="image__logo">
+                    <img src="images/logo.svg" class="image__logo" alt="image__logo">
                 </a>
                 <nav class="menu">
                     <ul class="menu__list">
@@ -36,5 +39,26 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <div class="slogan">
+            <h1 class="main__slogan">
+                АРТ - ПРОСТРАНСТВО
+            </h1>
+            <img src="./images/LENNI.svg" class="slogan__image" alt="slogan__image">
+            <h1 class="main__slogan" id="sloganPart2">для людей, горящих сердцем и делом<br>место для настоящего</h1>
+        </div>
+        <div class="user__buttons">
+            <span class="user__buttons__text">Я хочу:</span>
+            <button class="user__button" id="button__hold">
+                Провести мероприятие
+            </button>
+            <button class="user__button" id="button__become">
+                Стать арендодателем
+            </button>
+        </div>
+        <div class="content__title">
+
+        </div>
+    </main>
  </body>
  </html>
