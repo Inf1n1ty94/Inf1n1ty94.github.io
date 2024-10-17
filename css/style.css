@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1334px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-left: 237px;
+    margin-right: 307px;
+    margin-top: 61px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.menu__link {
+    text-decoration: none;
+}
